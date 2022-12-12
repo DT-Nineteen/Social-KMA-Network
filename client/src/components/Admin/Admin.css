@@ -1,0 +1,538 @@
+.Manager {
+    font-family: Tahoma, sans-serif;
+}
+
+.LoginAdmin {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.Form_LoginAdmin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.Form_LoginAdmin>div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form_LoginAdmin>div>label{
+    flex: 1;
+}
+
+.Button_LoginAdmin {
+    display: flex;
+    gap: 1rem;
+}
+
+.NavbarManager {
+    display: flex;
+    padding: 0.5rem 1rem;
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+}
+
+.NavbarManager>h1 {
+    flex:1 ;
+    margin-left: 2rem;
+}
+
+.BodyManager {
+    display: grid;
+    grid-template-columns: 30vh auto;
+    gap: 0.1rem;
+    height: 89.5vh;
+    
+}
+
+.RightManager {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    padding: 1rem 0;
+}
+
+.ButtonRight {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+    width: 100%;
+    align-items: start;
+
+}
+
+.ButtonRight>button {
+    border: none;
+    outline: none;
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.ButtonRight>button:active {
+    background-color: #fff;
+}
+
+.ButtonRight>button:focus {
+    background-color:rgb(150, 187, 255);
+}
+
+.LeftManager {
+    
+}
+
+
+.ManagerHeader {
+    height: 100%;
+    background-color: aliceblue;
+    padding: 1rem;
+    display: flex;
+    gap: 4rem;
+    
+}
+
+/* UserManager */
+
+.UserManager {
+    width: 100%;
+}
+
+.UserList {
+    background-color: #fff;
+    padding: 1rem 2rem ;
+    border-radius: 10px;
+}
+
+.UserListHeader{ 
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.UserListHeader>h5{
+    flex: 1;
+}
+
+.input-search {
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    border: 1px;
+    padding: 0.5rem;
+}
+
+.NewUser {
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.71429;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+    font-family: "Public Sans", sans-serif;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 101, 209);
+    box-shadow: rgb(32 101 209 / 24%) 0px 8px 16px 0px;
+}
+
+.UserListField {
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+.FieldUserName {
+    display: grid;
+    grid-template-columns: 8% 24% 25% 28% 15%;
+    background-color: aliceblue;
+    
+}
+
+
+
+.FieldUserName>h6 {
+    margin-bottom: unset;
+    padding: 1rem 0.5rem;
+}
+
+.InfoUser {
+    max-height: 62vh;
+    overflow-y: auto;
+    padding-right: 0.2rem;
+}
+
+
+.InfoUser>div{
+    display: grid;
+    grid-template-columns: 8% 24% 25% 28% 15%;
+    padding: 0.5rem 0;
+}
+
+.InfoUser>div>h6 {
+    font-weight: 400;
+    margin-bottom: unset;
+    padding: 0.5rem;
+    word-wrap: break-word;
+}
+
+
+.RoleUser {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.RoleUser>h6 {
+    border-radius: 7px;
+}
+
+.RoleUser>button {
+    padding: 0.5rem;
+}
+
+.Admin {
+    color: #fff;
+    background-color: rgb(255, 55, 55);
+    text-align: center;
+}
+
+.User {
+    color: #fff;
+    background-color: rgb(0, 200, 0);
+    text-align: center;
+}
+
+.Disable {
+    color: #fff;
+    background-color: rgb(255, 55, 55);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.Enable {
+    color: #fff;
+    background-color: rgb(0, 200, 0);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.RoleUser>h6 {
+    margin-bottom: unset;
+    flex: 1;
+    padding: 0.5rem;
+    min-width: 70px;
+}
+
+/* PostManager */
+
+.PostManager {
+    width: 100%;
+    
+}
+
+.PostList {
+    background-color: #fff;
+    padding: 1rem 2rem ;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.PostListHeader{ 
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.PostListHeader>h5{
+    flex: 1;
+}
+
+.PostListField {
+    background-color: rgba(255,255,255,0.7);
+    height: 100%;
+    
+}
+
+.FieldPostName {
+    display: grid;
+    grid-template-columns: 3% 12% 30% 30% 6% 12% 6%;
+    background-color: aliceblue;
+    
+}
+
+.FieldPostName>h6 {
+    margin-bottom: unset;
+    padding: 1rem 0.5rem;
+}
+
+.InfoPost {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+
+.InfoPost>div{
+    display: grid;
+    grid-template-columns: 3% 12% 30% 30% 6% 12% 6%;
+    padding: 0.5rem 0;
+    
+}
+
+.InfoPost>div>h6 {
+    font-weight: 400;
+    margin-bottom: unset;
+    padding: 0.5rem;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.ImagesPost {
+    position: relative;
+    max-height: 70px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    place-items: center;
+    padding: 2px;
+    grid-gap: 20px;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+}
+
+.ImagesPost #file_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* min-height: 100px; */
+}
+
+.ImagesPost #file_img img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 66px;
+    
+}
+
+
+/* Dashboard */
+.Dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.BodyDashboard {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+
+
+.BodyDashboard>div>div>img {
+    width: 24px;
+    
+}
+
+.TotalUsers {
+    min-width: 230px;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-image: none;
+    overflow: hidden;
+    border-radius: 16px;
+    position: relative;
+    z-index: 0;
+    padding: 32px;
+    box-shadow: none;
+    text-align: center;
+    color: rgb(6, 27, 100);
+    background-color: rgb(209, 233, 252);
+}
+
+.TotalUsers>div {
+    margin: auto auto 24px;
+    display: flex;
+    border-radius: 50%;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(16, 57, 150);
+    background-image: linear-gradient(135deg, rgba(16, 57, 150, 0) 0%, rgba(16, 57, 150, 0.24) 100%);
+}
+
+.TotalPosts {
+    min-width: 230px;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-image: none;
+    overflow: hidden;
+    border-radius: 16px;
+    position: relative;
+    z-index: 0;
+    padding: 32px;
+    box-shadow: none;
+    text-align: center;
+    color: rgb(122, 79, 1);
+    background-color: rgb(255, 231, 217);
+}
+
+.TotalPosts>div {
+    margin: auto auto 24px;
+    display: flex;
+    border-radius: 50%;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(183, 129, 3);
+    background-image: linear-gradient(135deg, rgba(183, 33, 54, 0) 0%, rgba(183, 33, 54, 0.24) 100%);
+}
+
+.TotalFeedbacks {
+    min-width: 230px;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-image: none;
+    overflow: hidden;
+    border-radius: 16px;
+    position: relative;
+    z-index: 0;
+    padding: 32px;
+    box-shadow: none;
+    text-align: center;
+    color: rgb(122, 79, 1);
+    background-color: rgb(255, 247, 205);
+}
+
+.TotalFeedbacks>div {
+    margin: auto auto 24px;
+    display: flex;
+    border-radius: 50%;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(183, 129, 3);
+    background-image: linear-gradient(135deg, rgba(183, 129, 3, 0) 0%, rgba(183, 129, 3, 0.24) 100%);
+}
+
+.ChartRealtime {
+    background-color: rgb(208, 242, 255);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+/* Feedbacks Manager */
+.FeedbackManager {
+    width: 100%;
+    
+}
+
+.FeedbackList {
+    background-color: #fff;
+    padding: 1rem 2rem ;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.FeedbackListHeader{ 
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.FeedbackListHeader>h5{
+    flex: 1;
+}
+
+.FeedbackListField {
+    background-color: rgba(255,255,255,0.7);
+    height: 100%;
+    
+}
+
+.FieldFeedbackName {
+    display: grid;
+    grid-template-columns: 3% 22% 30% 25% 20%;
+    background-color: aliceblue;
+    
+}
+
+.FieldFeedbackName>h6 {
+    margin-bottom: unset;
+    padding: 1rem 0.5rem;
+}
+
+.InfoFeedback {
+    max-height: 62vh;
+    overflow-y: auto;
+}
+
+
+.InfoFeedback>div{
+    display: grid;
+    grid-template-columns: 3% 22% 30% 25% 20%;
+    padding: 0.5rem 0;
+    
+}
+
+.InfoFeedback>div>h6 {
+    font-weight: 400;
+    margin-bottom: unset;
+    padding: 0.5rem;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+.ModifyButton {
+    display: flex;
+    gap: 2rem;
+}
+
+.ModifyButton>button {
+    flex: 1;
+}
+
+
+.SortContent {
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.SortIcon {
+    width: 24px;
+    margin-bottom: 8px;
+}

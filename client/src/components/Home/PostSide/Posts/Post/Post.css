@@ -1,0 +1,117 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--inputColor);
+    border-radius: 1rem;
+    gap: 1rem;
+    overflow-y: auto;
+}
+
+.PostHeader {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LeftPart {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.Avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.NameUser {
+    transform: translateY(3px);
+}
+
+.NameUser>h6>a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.dropdown {
+    /* width: 15px;
+    height: 15px; */
+    gap: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+}
+
+.SavePost>img {
+    width: 40px;
+}
+
+.material-icons {
+    justify-content: flex-end;
+}
+
+
+.PostReact {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+.Like {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PostReact>div>img {
+    width: 30px;
+    height: 30px;
+}
+
+.p-button {
+    padding: 0 1rem;
+}
+
+.carousel-item>a {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(116, 116, 116, 0.5);
+}
+
+.carousel-item>div {
+    /* position: relative; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(116, 116, 116, 0.5);
+}
+
+.Zoom_In>img {
+    position: absolute;
+    filter:invert();
+    top: 1rem;
+    right: 5%;
+    cursor: pointer;
+    width: 30px;
+    border: 1px solid black;
+}

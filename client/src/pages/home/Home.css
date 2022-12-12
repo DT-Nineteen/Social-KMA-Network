@@ -1,0 +1,23 @@
+.Home {
+    padding: 0.5rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20vw auto 25vw;
+    gap: 1rem;
+    height: 100vh;
+}
+
+@media only screen  and (max-width: 75vh){
+    .Home {
+        /* display: flex;
+        flex-direction:row; */
+    }
+    
+    .RightSide{
+        display: none;
+    }
+
+    /* .ProfileSide{
+        display: none;
+    } */
+}

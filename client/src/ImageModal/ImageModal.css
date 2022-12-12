@@ -1,0 +1,18 @@
+.ImageModal {
+    display: flex;
+    justify-content: center;
+    height: 76vh;
+}
+
+
+.ImageModal>img {
+    height: 100%;
+    width: auto;
+
+}
+
+@media only screen and (max-width: 1070px){
+    .ImageOnModal {
+        max-width: 100%;
+    }
+}
