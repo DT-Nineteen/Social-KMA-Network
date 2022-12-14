@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a6b9f0d.css",
+    "main.js": "/static/js/main.1a9a34ea.js",
+    "static/media/redirect.jpg": "/static/media/redirect.2e64410eac162d1104f6.jpg",
+    "static/media/spaceship.gif": "/static/media/spaceship.392608cf19a862b98e3a.gif",
+    "static/media/logoKMA.png": "/static/media/logoKMA.a3180546ec088a3c12f4.png",
+    "static/media/avatarPhuc.jpg": "/static/media/avatarPhuc.b49d87de4f592ce6c06f.jpg",
+    "static/media/logo.png": "/static/media/logo.13f8f1a767411c0e2dea.png",
+    "static/media/loading.gif": "/static/media/loading.350401bb2736cb5bd723.gif",
+    "static/media/got-it-done-613.mp3": "/static/media/got-it-done-613.89a311f04f29deab239c.mp3",
+    "static/media/friends2.png": "/static/media/friends2.a748a276bcf7ff5b0d29.png",
+    "static/media/DefaultAvatar.jpg": "/static/media/DefaultAvatar.ac8fe4876482c3c9c4c2.jpg",
+    "static/media/friends1.png": "/static/media/friends1.c8e02aed08c395441f80.png",
+    "static/media/search.gif": "/static/media/search.ad7297a34f699e34ba0c.gif",
+    "static/media/NoNotice.jpg": "/static/media/NoNotice.00975e0d7e0dfabb61c5.jpg",
+    "static/media/avatarHiep.jpg": "/static/media/avatarHiep.5f8c7220fde77df9246d.jpg",
+    "static/media/avatarTruong.jpg": "/static/media/avatarTruong.58ac86cd9c68a6e70344.jpg",
+    "index.html": "/index.html",
+    "main.5a6b9f0d.css.map": "/static/css/main.5a6b9f0d.css.map",
+    "main.1a9a34ea.js.map": "/static/js/main.1a9a34ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a6b9f0d.css",
+    "static/js/main.1a9a34ea.js"
+  ]
+}
